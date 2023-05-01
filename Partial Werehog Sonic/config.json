@@ -1,0 +1,48 @@
+{
+   "Groups": [
+      {
+         "Name": "Main",
+         "DisplayName": "Configuration",
+         "Elements": [
+            {
+                "Name": "IncludeDir0",
+                "DisplayName": "Shoe Toggle:",
+                "Description": [
+                    "Choose"
+                ],
+                "Type": "SkinEnum",
+                "MinValue": null,
+                "MaxValue": null,
+                "DefaultValue": "Werehog Shoes with Buckles"
+
+            }
+         ]
+      }
+   ],
+   "Enums": {
+		"SkinEnum": [
+		 {
+            "DisplayName": "Normal Shoes",
+            "Value": "Normal Shoes",
+            "Description": [
+               ""
+            ]
+         },
+		 {
+            "DisplayName": "Werehog Shoes",
+            "Value": "Werehog Shoes",
+            "Description": [
+               ""
+            ]
+         },
+         {
+            "DisplayName": "Werehog Shoes with Buckles",
+            "Value": "Werehog Shoes + Buckles",
+            "Description": [
+                ""
+            ]
+         }		 
+      ]
+   },
+   "IniFile": "mod.ini"
+}
